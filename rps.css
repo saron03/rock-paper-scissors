@@ -1,0 +1,68 @@
+.h-btns{
+    display:flex;
+    margin: 15px;
+    justify-content: center;
+    gap: 10%;
+    margin-bottom: 40px;
+}
+
+.rock,
+.paper,
+.scissors{
+    background:none;
+    border-radius: 7px;
+    height: 140px;
+    cursor: pointer; 
+}
+
+.title{
+    margin-top: 60px;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    margin-bottom: 35px;
+}
+
+
+button.clicked img {
+    transform: scale(1.2);
+}
+
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2017/09/03/06/12/abstract-2709402_640.png");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+h1{
+    margin: 30px;
+    color: beige;
+    font-weight: bold;
+    font-size: 33px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p{
+    color: azure;
+   
+}
+button:active {
+    transform: scale(0.9);
+    box-shadow: 0 0 5px #fff;
+}
+
+
+  button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px aqua;
+}
+
+.again:hover {
+    transform: scale(1.1);
+}
+
+.again:active {
+    transform: scale(0.9);
+}
